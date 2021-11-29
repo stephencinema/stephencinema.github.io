@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>assignment 008</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <script src="tone/build/Tone.js"></script>
+    <script src="tone-ui.js"></script>
+    <script src="components.js"></script>
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        assignment 008
+    </header>
+    <tone-example label="Pitch Shift" style="color: white;">
+		<tone-loader></tone-loader>
+		<div id="content">
+			<tone-play-toggle style="background-color: white;"></tone-play-toggle>
+			<tone-slider label="pitch" min="-12" max="12" value="0" units="hz"></tone-slider>
+		</div>
+	</tone-example>
+</body>
+
+
+</html>
