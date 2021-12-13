@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2021 music roundup</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <a href="roundup-landing.html" class="title">the world of stephen shadrach</a>
+        <ul>
+            <li><a href="top-artists.html">top artists</a></li>
+            <li><a href="fav-albums.html">favorite albums</a></li>
+            <li><a href="fav-songs.html">favorite songs</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <h2 id="text">2021 Music Roundup</h2>
+        <img src="mouse.png" id="mouse" style="width: 100px; height: 100px;">
+    </section>
+
+    <div class="sec" id="sec">
+        <p>welcome to the 2021 review of my favorite music! within these webpages will contain my most listened to
+            artists
+            of the year, my favorite albums of the year, and my favorite songs of the year. <br></br> i will also be
+            providing some written commentary along the way + ratings to my favorite albums. <br></br> the top artists
+            are ranked by how many hours i've listened to them. the favorite albums and favorite songs will be rated
+            based on how much i enjoyed them. not objective at all. </p>
+    </div>
+
+    <script>
+        let mouse = document.getElementById("mouse");
+
+        window.addEventListener("scroll", function () {
+            let value = window.scrollY;
+            mouse.style.left = value * 4 + "px";
+        })
+    </script>
+</body>
+
+
+</html>
